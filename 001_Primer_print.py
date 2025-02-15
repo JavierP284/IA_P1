@@ -1,1 +1,7 @@
+print("¡Hola Mundo!")
+print()
 print("Hisssssssss....")
+print()
+print("Miau!")
+print()
+print("Inteligencia \nArttificial")
