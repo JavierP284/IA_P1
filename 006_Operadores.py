@@ -37,3 +37,8 @@ print(6. / 4) #Si se usa division normal si da decimales
 #Residuo entero
 print("\nResiduo Entero")
 print(14 % 4) #Te da el residuo de la division para dare un valor entero
+
+#Prioridades
+print("\nPrioridades de los operadores")
+print(2 ** 2 ** 3) #Siguen la jerarquia de operaciones, ademas tiene un enlazado de izquierda a derecha
+print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
