@@ -1,0 +1,6 @@
+print("Mi nombre es", "Python.", end="")
+print("Monty Python.")
+print("Mi", "nombre", "es", "Javier", "Pérez", sep="-")
+print()
+print("Mi", "nombre", "es", sep="_", end="/")
+print("Javier", "Pérez.", sep="-", end="/\n")
