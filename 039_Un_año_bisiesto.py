@@ -10,15 +10,15 @@ for i in range(len(test_data)):
     yr = test_data[i]
     print(yr,"->",end="")
     result = is_year_leap(yr)
-    if result == test_results[i]:
+    if result == test_results[i]: #Comproacion de los datos de prueba
         print("OK")
     else:
-        print("Fallido") #Comprobacion
+        print("Fallido") 
 
-yr = int(input("Ingresa un año: "))
+yr = int(input("Ingresa un año: ")) #Solicitar un año
 result = is_year_leap(yr)
 if result == True:
-    print("Año bisiesto")
+    print("Año bisiesto") #Mostrar si es bisiesto o comun
 else:
     print("Año común")
  
