@@ -23,7 +23,7 @@ def enter_move(board): #Funcion para realizar un movimiento
         except ValueError:
             print("¡Entrada inválida! Debes ingresar un número.")
 
-def make_list_of_free_fields(board):
+def make_list_of_free_fields(board): #Funcion para definir espacios libres
     free_fields = []
     for r in range(3):
         for c in range(3):
