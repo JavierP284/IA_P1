@@ -1,7 +1,7 @@
 #Imprimir texo usando 
 print("¡Hola Mundo!")
 print()#print para que pase un renglon completo
-print("Hisssssssss....")
+print("Hisssssssss....") #Texto a mostrar
 print()
 print("Miau!")
 print()
